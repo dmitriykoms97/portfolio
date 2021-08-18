@@ -1,0 +1,28 @@
+.myWorksBlock {
+    height: 100vh;
+    background-color: #f1e19b;
+}
+
+.myWorksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: coral;
+}
+
+.works {
+    border: 1px solid black;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .works {
+        justify-content: center;
+    }
+}

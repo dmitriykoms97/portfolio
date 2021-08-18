@@ -1,0 +1,29 @@
+.footerBlock {
+    height: 300px;
+    background-color: #c4c7cd;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: coral;
+}
+
+.secondTitle {
+    background-color: coral;
+    margin-top: 50px;
+}
+
+.socialBlock {
+    border: 1px solid black;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
