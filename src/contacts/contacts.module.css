@@ -1,6 +1,5 @@
-.contactsBlock {
-    height: 100vh;
-    background-color: #ace0bc;
+.contactsBlock  {
+    background-color: #1F2235;
 }
 
 .contactsContainer {
@@ -9,7 +8,7 @@
 }
 
 .title {
-    background-color: coral;
+
 }
 
 .formBlock {
@@ -18,6 +17,7 @@
     flex-direction: column;
     border: 1px solid black;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .inputName {

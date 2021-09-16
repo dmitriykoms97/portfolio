@@ -1,6 +1,5 @@
 .skillsBlock {
-    height: 100vh;
-    background-color: cornflowerblue;
+    background: #1F2235;
 }
 
 .skillsContainer {
@@ -9,15 +8,28 @@
 }
 
 .title {
-    background-color: coral;
+    font-size: 30px;
+    position: relative;
+    margin: 20px 0 20px;
+}
+
+.title::after {
+    content: '';
+    width: 55px;
+    height: 1px;
+    position: absolute;
+    background: #FFC576;
+    bottom: -15px;
+    right: 50%;
+    transform: translate(50%, -50%);
 }
 
 .skills {
     width: 100%;
-    background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 539px) {

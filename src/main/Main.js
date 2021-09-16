@@ -1,18 +1,19 @@
 import React from 'react';
 import s from './main.module.css'
 import styleContainer from '../common/styles/Container.module.css'
+import myPhoto from '../img/myPhoto.JPG';
 
 const Main = () => {
     return (
         <div className={s.mainBlock}>
             <div className={styleContainer.container}>
-                <div className={s.text}>
-                    <span>Приве, всем!</span>
-                    <h1>Меня зовут Дмитрий</h1>
-                    <p>Front-End Developer</p>
+                <div className={s.heroContent}>
+                    <h3 className={s.introTitle}>Hello, I`m</h3>
+                    <h1 className={s.title}>Dmitriy Shpak</h1>
+                    <h3 className={s.subTitle}>Front-End Developer</h3>
                 </div>
-                <div className={s.photo}>
-                    <img src="#" alt=""/>
+                <div>
+                    <img src={myPhoto} alt="" className={s.photo}/>
                 </div>
             </div>
         </div>

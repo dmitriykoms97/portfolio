@@ -2,6 +2,8 @@ import React from 'react';
 import s from './myWorks.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import Work from "./work/Work";
+import socialNetwork from '../img/icons/socialNetwork.jfif'
+import todolist from './work/todolist.jpg'
 
 const MyWorks = () => {
 
@@ -12,8 +14,15 @@ const MyWorks = () => {
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <h2 className={s.title}>My Works</h2>
                 <div className={s.works}>
-                    <Work title={'Social Network'} description={description}/>
-                    <Work title={'ToDo List'} description={description}/>
+                    <Work
+                        title={'Social Network'}
+                        description={description}
+                        image={socialNetwork}
+                    />
+                    <Work title={'ToDo List'}
+                          description={description}
+                          image={todolist}
+                    />
                 </div>
             </div>
         </div>

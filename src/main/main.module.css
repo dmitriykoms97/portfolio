@@ -1,16 +1,39 @@
 .mainBlock {
     height: 100vh;
-    background-color: #1F2235;
+    min-height: 700px;
+    background-color: #232639;
 }
 
 
-.text {
-    width: 300px;
-    background-color: coral;
+.heroContent {
+    box-sizing: border-box;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: coral;
+}
+
+.introTitle {
+    color: #FFC576;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    line-height: 100px;
+    margin: 12px 0 0;
+    letter-spacing: 0;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.subTitle {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 46px 0 0;
 }

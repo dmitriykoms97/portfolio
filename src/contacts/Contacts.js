@@ -6,16 +6,16 @@ const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
-                <h2 className={s.title}>Контакты</h2>
-                <div className={s.formBlock}>
-                    <p>Введите имя: </p>
+                <h2 className={s.title}>Contacts</h2>
+                <form className={s.formBlock}>
+                    <label>First name: </label>
                     <input className={s.inputName}/>
-                    <p>Введите фамилию: </p>
+                    <label>Last name: </label>
                     <input className={s.inputLastName}/>
-                    <p>Что-то ещё: </p>
+                    <label>Something else: </label>
                     <textarea className={s.textArea} />
                     <button className={s.btnSend}>Send</button>
-                </div>
+                </form>
             </div>
         </div>
     );

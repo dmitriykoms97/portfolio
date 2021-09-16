@@ -13,14 +13,16 @@ const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
-                <h2 className={s.title}>Шпак Дмитрий</h2>
-                <div className={s.socialBlock}>
-                    <IconOfSocial icon={instagram}/>
-                    <IconOfSocial icon={linkedIn}/>
-                    <IconOfSocial icon={facebook}/>
-                    <IconOfSocial icon={twitter}/>
+                <div className={s.footerInner}>
+                    <h2 className={s.title}>Dmitriy Shpak</h2>
+                    <div className={s.socialBlock}>
+                        <IconOfSocial icon={instagram}/>
+                        <IconOfSocial icon={linkedIn}/>
+                        <IconOfSocial icon={facebook}/>
+                        <IconOfSocial icon={twitter}/>
+                    </div>
+                    <h2 className={s.secondTitle}><span className={s.specialSymbol}>2021</span> All rules are secured</h2>
                 </div>
-                <h2 className={s.secondTitle}>2021 Все права защищены</h2>
             </div>
 
         </div>

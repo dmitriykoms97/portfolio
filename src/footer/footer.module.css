@@ -1,6 +1,6 @@
 .footerBlock {
-    height: 300px;
-    background-color: #c4c7cd;
+    padding: 30px;
+    background-color: #232639;
 }
 
 .footerContainer {
@@ -8,12 +8,18 @@
     justify-content: flex-start;
 }
 
+.footerInner {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .title {
-    background-color: coral;
+
 }
 
 .secondTitle {
-    background-color: coral;
     margin-top: 50px;
 }
 
@@ -26,4 +32,8 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.specialSymbol:after {
+    content: '\A9';
 }
