@@ -1,0 +1,16 @@
+.title {
+    font-size: 30px;
+    position: relative;
+    margin: 20px 0 20px;
+}
+
+.title::after {
+    content: '';
+    width: 55px;
+    height: 1px;
+    position: absolute;
+    background: #FFC576;
+    bottom: -15px;
+    right: 50%;
+    transform: translate(50%, -50%);
+}

@@ -7,33 +7,18 @@
     justify-content: flex-start;
 }
 
-.title {
-
-}
-
 .formBlock {
     width: 50%;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
-.inputName {
-    padding: 10px;
-}
-.inputLastName {
-    margin-top: 10px;
-    padding: 10px;
-}
-.textArea {
-    margin-top: 10px;
-    padding: 10px;
-}
 .btnSend {
-    margin-top: 10px;
     padding: 10px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 p {

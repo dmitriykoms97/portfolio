@@ -4,6 +4,7 @@ import styleContainer from '../common/styles/Container.module.css'
 import Work from "./work/Work";
 import socialNetwork from '../img/icons/socialNetwork.jfif'
 import todolist from './work/todolist.jpg'
+import Title from "../common/components/title/Title";
 
 const MyWorks = () => {
 
@@ -12,7 +13,7 @@ const MyWorks = () => {
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
-                <h2 className={s.title}>My Works</h2>
+                <Title text={'Projects'}/>
                 <div className={s.works}>
                     <Work
                         title={'Social Network'}

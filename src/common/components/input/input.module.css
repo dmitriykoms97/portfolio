@@ -1,0 +1,10 @@
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputName {
+    margin: 10px;
+    padding: 10px;
+}

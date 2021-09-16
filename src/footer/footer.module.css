@@ -1,5 +1,4 @@
 .footerBlock {
-    padding: 30px;
     background-color: #232639;
 }
 
@@ -24,12 +23,11 @@
 }
 
 .socialBlock {
+    margin: 20px;
     border: 1px solid black;
-    width: 60%;
-    height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }

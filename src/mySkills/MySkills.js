@@ -8,12 +8,13 @@ import react from '../img/icons/react.png';
 import redux from '../img/icons/redux.png';
 import restAPI from '../img/icons/restApi.png';
 import typescript from '../img/icons/typescript.png';
+import Title from "../common/components/title/Title";
 
 const MySkills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>My Skills</h2>
+                <Title text={'Skills'}/>
                 <div className={s.skills}>
                     <Skill title={'JavaScript'}
                            description={'Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.'}

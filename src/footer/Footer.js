@@ -2,6 +2,7 @@ import React from 'react';
 import s from './footer.module.css'
 import styleContainer from "../common/styles/Container.module.css";
 import IconOfSocial from "./IconOfSocial";
+import Title from "../common/components/title/Title";
 
 const Footer = () => {
 
@@ -14,7 +15,7 @@ const Footer = () => {
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
                 <div className={s.footerInner}>
-                    <h2 className={s.title}>Dmitriy Shpak</h2>
+                    <Title text={'Dmitriy Shpak'}/>
                     <div className={s.socialBlock}>
                         <IconOfSocial icon={instagram}/>
                         <IconOfSocial icon={linkedIn}/>
