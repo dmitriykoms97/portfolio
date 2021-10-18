@@ -10,6 +10,14 @@ const MyWorks = () => {
 
     const description = 'Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.';
 
+    const social = {
+        backgroundImage: `url(${socialNetwork})`
+    }
+    const todo = {
+        backgroundImage: `url(${todolist})`
+    }
+
+
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
@@ -18,11 +26,11 @@ const MyWorks = () => {
                     <Work
                         title={'Social Network'}
                         description={description}
-                        image={socialNetwork}
+                        style={social}
                     />
                     <Work title={'ToDo List'}
                           description={description}
-                          image={todolist}
+                          style={todo}
                     />
                 </div>
             </div>

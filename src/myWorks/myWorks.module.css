@@ -1,39 +1,22 @@
 .myWorksBlock {
-    background-color: #232639;
+  background-color: #232639;
+  padding-bottom: 25px;
 }
 
 .myWorksContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
-
-.title {
-    font-size: 30px;
-    position: relative;
-    margin: 20px 0 20px;
-}
-
-.title::after {
-    content: '';
-    width: 55px;
-    height: 1px;
-    position: absolute;
-    background: #FFC576;
-    bottom: -15px;
-    right: 50%;
-    transform: translate(50%, -50%);
-}
-
 .works {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1200px) {
-    .works {
-        justify-content: center;
-    }
+  .works {
+    justify-content: center;
+  }
 }
