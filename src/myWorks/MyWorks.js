@@ -5,6 +5,7 @@ import Work from "./work/Work";
 import socialNetwork from '../img/icons/socialNetwork.jfif'
 import todolist from './work/todolist.jpg'
 import Title from "../common/components/title/Title";
+import Fade from 'react-reveal/Slide';
 
 const MyWorks = () => {
 
@@ -21,18 +22,20 @@ const MyWorks = () => {
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
-                <Title text={'Projects'}/>
-                <div className={s.works}>
-                    <Work
-                        title={'Social Network'}
-                        description={description}
-                        style={social}
-                    />
-                    <Work title={'ToDo List'}
-                          description={description}
-                          style={todo}
-                    />
-                </div>
+                <Fade bottom>
+                    <Title text={'Projects'}/>
+                    <div className={s.works}>
+                        <Work
+                            title={'Social Network'}
+                            description={description}
+                            style={social}
+                        />
+                        <Work title={'ToDo List'}
+                              description={description}
+                              style={todo}
+                        />
+                    </div>
+                </Fade>
             </div>
         </div>
     );
